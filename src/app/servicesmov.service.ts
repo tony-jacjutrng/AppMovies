@@ -17,9 +17,9 @@ export interface MovieDetails {
   poster_path: string;
   tagline: string;
   genres: { id: number, name: string }[];
-  overview: string; // Agrega la propiedad overview
-  release_date: string; // Agrega la propiedad release_date
-  budget: number; // Agrega la propiedad budget
+  overview: string;
+  release_date: string;
+  budget: number; 
   homepage: string;
   actors: { id: number; name: string,profile_path:string }[];
 
